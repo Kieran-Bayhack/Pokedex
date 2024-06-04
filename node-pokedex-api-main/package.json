@@ -1,0 +1,37 @@
+{
+    "name": "pokedex-api",
+    "version": "2.0.0",
+    "description": "Node.js wrapper library for the Pokédex API.",
+    "type": "module",
+    "main": "./dist/pokedex.js",
+    "typings": "./typings/pokedex.d.ts",
+    "repository": "https://github.com/PokeDevs/node-pokedex-api.git",
+    "homepage": "https://pokedevs.gitbook.io",
+    "author": "iamtraction",
+    "license": "MIT",
+    "keywords": [
+        "pokemon",
+        "pokedex",
+        "api",
+        "database",
+        "pokeapi",
+        "pokedb",
+        "wrapper",
+        "library"
+    ],
+    "scripts": {
+        "docs": "npx typedoc src/pokedex.ts",
+        "build": "tsc",
+        "test": "eslint . --ext .ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.6.0",
+        "@typescript-eslint/eslint-plugin": "^6.7.0",
+        "@typescript-eslint/parser": "^6.7.0",
+        "eslint": "^8.49.0",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "undici": "^5.24.0"
+    }
+}
