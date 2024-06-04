@@ -16,4 +16,21 @@ h1 {
   line-height: 1.1;
 }
 
+.navbar{
+  display: flex;
+  justify-content: left;
+  background-color: white;
+  align-items: left;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+}
+
+.navbar ul{
+  list-style: none;
+}
+
 
